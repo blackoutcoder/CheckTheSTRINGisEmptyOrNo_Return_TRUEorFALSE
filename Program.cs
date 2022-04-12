@@ -28,7 +28,7 @@ namespace CheckTheSTRINGisEmptyOrNo_Return_TRUEorFALSE
 
             public void Cheker()
             {
-                if (newString == "")
+                if (Convert.ToBoolean(newString.Length == 0) == true)
                 {
                     result = "Line is empty";  
                 } else
